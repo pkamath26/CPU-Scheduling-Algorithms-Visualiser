@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>OS Project</title>
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;700&display=swap');
+        body{
+            background-color: #EEEEEE;  
+        }
+        .container{
+            margin-top: 50px;
+            margin-bottom:20px;
+            border-style:solid;
+            border-radius: 10px;
+        }
+        #nextPage{
+            font-family: 'Nunito', sans-serif;
+            font-weight: 600;
+            font-size: 22px;
+            border: 0px;
+            background-color: #DC5F00;
+            margin-top: 15%;
+        }
+        #logo{
+            height: 50%;
+            width: 85%;
+        }
+        h1{
+            font-family: 'Nunito', sans-serif;
+            font-weight: 700;
+            font-size:45px;
+            margin-top: 45px;
+            margin-bottom: 80px;
+            text-align:center;
+        }
+        table{
+
+            font-family: 'Nunito', sans-serif;
+            font-weight: 600;
+            width: 80%;
+            background-color: #DC5F00;
+            border:0px solid black;margin-left:100px;margin-right:50px;
+            color:#dddddd;
+        }
+        table td{
+            font-size: 25px;
+        }
+        .styled-table thead tr {
+        background-color: #F8B595;
+        color: #ffffff;
+        text-align: left;
+        }
+        .styled-table th,
+        .styled-table td {
+            padding: 12px 15px;
+        }
+        .styled-table tbody tr {
+        border-bottom: 1px solid #dddddd;
+        }
+
+        .styled-table tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+        color: black;
+        }
+
+        .styled-table tbody tr:last-of-type {
+        border-bottom: 2px solid #F8B595;
+        } 
+        .styled-table tbody tr.active-row {
+        font-weight: bold;
+        color: #F8B595;
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="container" >
+        <img src="manipal_logo.png" id="logo" alt="logo">
+        <div>
+            <h1 >OS Scheduling Algorithms</h1>
+        </div>
+        <div id="names">
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Roll</th>
+                        <th>Registration No.</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Saurabh Kumar Mishra</td>
+                        <td>53</td>
+                        <td>200905314</td>
+                    </tr>
+                    <tr>
+                        <td>Raghav Sharma</td>
+                        <td>54</td>
+                        <td>200905320</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Pradyumn Kamath</td>
+                        <td>60</td>
+                        <td>200905398</td>
+                    </tr>
+                    <tr>
+                        <td>Soumyajit Saha</td>
+                        <td>65</td>
+                        <td>200905378</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary btn-block" id="nextPage" onclick="window.location='index.html'">Click Here to Proceed</button>
+        </div>
+      
+    </div>
+</body>
+</html>
